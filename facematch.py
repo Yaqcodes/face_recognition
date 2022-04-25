@@ -4,7 +4,7 @@ image_of_bill = face_recognition.load_image_file('./img/known/Bill Gates.jpg')
 bill_face_encoding = face_recognition.face_encodings(image_of_bill)[0]
 
 unknown_image = face_recognition.load_image_file(
-    './img/unknown/d-trump.jpg')
+    './img/unknown/bill-gates-4.jpg')
 unknown_face_encoding = face_recognition.face_encodings(unknown_image)[0]
 
 # Compare faces
